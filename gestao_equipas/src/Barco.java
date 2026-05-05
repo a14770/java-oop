@@ -14,15 +14,16 @@ public class Barco extends Viatura {
         this.temPiscina = temPiscina;
     }
      
+    @Override
     public void mostrarInfo() {
         System.out.println("Vou mostrar a informação do barco:");
         System.out.println("Tipo: " + getTipo());
         System.out.println("Número de Rodas: " + getNumRodas());
         System.out.println("Velocidade Máxima: " + getVelocidadeMax());
         if (temPiscina){
-            System.out.println("Tem Pescina ");
+            System.out.println("Tem Pescina:  ");
         }else {
-            System.out.println("Não tem Pescina ");
+            System.out.println("Não tem Pescina:  ");
         }
 
     }

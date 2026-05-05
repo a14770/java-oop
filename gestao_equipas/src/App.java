@@ -7,9 +7,6 @@ public class App {
         /*carro.setTipo("Carro de corrida");
         carro.setNumRodas(4);
         carro.setVelocidadeMax(300);*/
-
         carro.mostrarInfo();
     }
-
-
 }
