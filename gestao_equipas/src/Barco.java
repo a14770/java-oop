@@ -16,7 +16,7 @@ public class Barco extends Viatura {
      
     @Override
     public void mostrarInfo() {
-        System.out.println("Vou mostrar a informação do barco:");
+        System.out.println("\nVou mostrar a informação do barco:");
         System.out.println("Tipo: " + getTipo());
         System.out.println("Número de Rodas: " + getNumRodas());
         System.out.println("Velocidade Máxima: " + getVelocidadeMax());

@@ -36,7 +36,7 @@ public class Viatura {
     }
 
     public void mostrarInfo() {
-        System.out.println("Vou mostrar a informação do viatura:");
+        System.out.println("\nVou mostrar a informação do viatura:");
         System.out.println("Tipo: " + tipo);
         System.out.println("Número de Rodas: " + numRodas);
         System.out.println("Velocidade Máxima: " + velocidadeMax);
