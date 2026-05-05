@@ -7,6 +7,7 @@ public class Viatura {
     
     
     public Viatura() {
+        this.numRodas = 2;
     }
 
     public Viatura(String tipo, int numRodas, int velocidadeMax) {
