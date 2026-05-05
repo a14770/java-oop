@@ -13,7 +13,7 @@ public class Viatura {
     public Viatura(String tipo, int numRodas, int velocidadeMax) {
         this.tipo = tipo;
         this.numRodas = numRodas;
-        this.velocidadeMax = velocidadeMax;
+        this.velocidadeMax = velocidadeMax;        
     }
 
     public String getTipo() {
@@ -36,7 +36,7 @@ public class Viatura {
     }
 
     public void mostrarInfo() {
-        System.out.println("Vou mostrar a informação do carro:");
+        System.out.println("Vou mostrar a informação do viatura:");
         System.out.println("Tipo: " + tipo);
         System.out.println("Número de Rodas: " + numRodas);
         System.out.println("Velocidade Máxima: " + velocidadeMax);
